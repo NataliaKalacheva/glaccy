@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31px" height="36px" viewBox="0 0 31 36">
+	   <defs>
+    <filter id="myfilter" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceAlpha" dx="1" dy="1.5" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1.5" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+<path fill="#FFFFFF" filter="url(#myfilter)" d="M11,21h7.451c5.247,0,9.5-4.253,9.5-9.5S23.698,2,18.451,2H11H7.379H6v14H2v5h4v3H2v5h4v4h5
+	v-4h15v-5H11V21z M11,7h7.451V6.97c2.501,0,4.529,2.028,4.529,4.53s-2.028,4.53-4.529,4.53V16H11V7z"/>
+</svg>
